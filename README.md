@@ -62,5 +62,5 @@ sufficient to just put back the CMSDIS jumper back, you have to remove all the
 installed chips either.
 
 # Tested hardware
-Sound Blaster 2.0 CT1350B revision 069316 (with CT1336A)
+Sound Blaster 2.0 CT1350B revision 060328 (with CT1336A)
 
