@@ -1,0 +1,53 @@
+CHIP SB20 16V8
+
+; CMS Logic Scheme for Sound Blaster 2.0
+; Copyright (C) 2019 by Scorp (Filipp Andjelo)
+;
+; This program is free software: you can redistribute it and/or modify  
+; it under the terms of the GNU General Public License as published by  
+; the Free Software Foundation, version 3.
+;
+; This program is distributed in the hope that it will be useful, but 
+; WITHOUT ANY WARRANTY; without even the implied warranty of 
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+; General Public License for more details.
+;
+; You should have received a copy of the GNU General Public License 
+; along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+; Version: 20190409
+
+gnd=10 ; Ground
+vcc=20 ; +5V
+
+; Input
+cs1=1    ; Chip select for the upper SAA1099P or YM3812
+cs2=2    ; Chip select for the lower SAA1099P
+cs0=3    ; Common chip select 
+clock=4  ; Clock signal controlled by the D-FlipFlop
+wr=5     ; Write signal
+reset=6  ; Reset signal
+dtack=11 ; Data Transfer Acknowledge from both SAA1099P
+
+; Output
+iochrdy=13  ; Tri-Stated I/O CHRDY
+cs_opl=14   ; CS of YM3812
+cs_cms1=15  ; CS of upper SAA1099P
+cs_cms2=16  ; CS of lower SAA1099P
+ff_pre=17   ; Preset of the D-FlipFlop
+ff_d=18     ; D of the D-FlipFlop
+ff_clock=19 ; Clock of the D-FlipFlop
+
+EQUATIONS
+
+cs_opl = /cs0 + cs1
+cs_cms1 = cs0 + cs1
+cs_cms2 = cs0 + cs2
+ff_pre = dtack * reset
+ff_d = wr + cs0 + cs1 * cs2
+ff_clock = /wr
+iochrdy.trst = /clock
+iochrdy = gnd
+
+
