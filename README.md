@@ -32,7 +32,7 @@ friend of open source, I wanted to make the solution available for everyone.
 Thankfully to `suntac`, I knew now, that the a solution does exist, so I decided
 to try to reverse engineer it on my own. This project is the result of my work.
 
-ATTENTION: I don't give any kind of warranty, nor guaranty. This procedure
+**ATTENTION:** I don't give any kind of warranty, nor guaranty. This procedure
 could break your hardware and I take no responsibility for your actions, so 
 use it at your own risk.
 
