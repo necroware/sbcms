@@ -21,16 +21,18 @@ need the logic IC, where this project comes into play.
 ## Where is the code comming from
 
 It is almost impossible to find the original CMS chips made by Creative anymore.
-In the year 2011 on [vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=30242) the code
-for the logic chip was published, but quite fast it was clear, that it doesn't
-work on all revisions of the Sound Blaster 2.0 cards. Some people tried to
-resolve the issues, but without a success. At least until 2018, where one guy
-named `suntac` reported, that he reverse engineered the hardware and found a
-solution. He had his honorable reasons not to open the code to the community,
-but at least he was so kind to provide the chips for a little fee. However, as a
-friend of open source, I wanted to make the solution available for everyone.
-Thankfully to `suntac`, I knew now, that the a solution does exist, so I decided
-to try to reverse engineer it on my own. This project is the result of my work.
+In the year 2011 the code for the logic chip was published on
+[vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=30242), but quite fast
+it was clear, that it doesn't for the logic chip was published, but quite fast
+it was clear, that it doesn't work on all revisions of the Sound Blaster 2.0
+cards. Some people tried to resolve the issues, but without a success. At least
+until 2018, where one guy named `suntac` reported, that he reverse engineered
+the hardware and found a solution. He had his honorable reasons not to open the
+code to the community, but at least he was so kind to provide the chips for a
+little fee. However, as a friend of open source, I wanted to make the solution
+available for everyone.  Thankfully to `suntac`, I knew now, that the a solution
+does exist, so I decided to try to reverse engineer it on my own. This project
+is the result of my work.
 
 **ATTENTION:** I don't give any kind of warranty, nor guaranty. This procedure
 could break your hardware and I take no responsibility for your actions, so 
