@@ -1,11 +1,11 @@
 # CMS Logic Scheme for Sound Blaster 2.0
 
-The final revision of the original Sound Blaster, the Sound Blaster 2.0 was
-released in October 1991. It supported two kinds of synthesizers OPL2 (Adlib)
-and Creative Music System (CMS), which used the same technology as various
+The final revision of the original Sound Blaster, the *Sound Blaster 2.0* was
+released in October 1991. It supported two kinds of synthesizers *OPL2 (Adlib)*
+and *Creative Music System (CMS)*, which used the same technology as various
 gaming consoles and personal computers of that time. There were not many games,
-which supported CMS, however there were some very famous among them, like Monkey
-Island. We all know from back in the days how OPL2/3 sounds like, but if you
+which supported CMS, however there were some very famous among them, like *Monkey
+Island*. We all know from back in the days how OPL2/3 sounds like, but if you
 also always wanted to know how CMS sounds like, you have to buy an old Creative
 Sound Blaster 1.0, 1.5 or 2.0. Unfortunately as soon as OPL2 found its way to
 the sound cards of that time, CMS died quickly. Where the Sound Blaster 1.0 had
@@ -14,7 +14,7 @@ came only with DIP sockets for the CMS synths but without chips. For Sound
 Blaster 2.0 it got even worse, not only the synth chips were removed, but also
 the logic IC to control them. Today most of the old dusty Sound Blaster 1.5/2.0
 cards you can buy are coming without the named chips. For Sound Blaster 1.5 this
-is not a problem at all, since you can buy two Phillips SAA-1099 synthesizer
+is not a problem at all, since you can buy two *Phillips SAA-1099* synthesizer
 chips and put them into the DIP sockets. However, for Sound Blaster 2.0 you
 need the logic IC, where this project comes into play.
 
@@ -76,7 +76,7 @@ sufficient to just put back the CMSOFF jumper back, you have to remove all the
 installed chips either.
 
 ## Tested hardware
-Sound Blaster 2.0 CT1350B revision 060328 (with CT1336A)
+- Sound Blaster 2.0 CT1350B revision 060328 (with CT1336A)
 
 ## Special thanks
 
