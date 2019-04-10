@@ -18,7 +18,7 @@ is not a problem at all, since you can buy two Phillips SAA-1099 synthesizer
 chips and put them into the DIP sockets. However, for Sound Blaster 2.0 you
 need the logic IC, where this project comes into play.
 
-# Where is the code comming from
+## Where is the code comming from
 
 It is almost impossible to find the original CMS chips made by Creative anymore.
 In the year 2011 on https://www.vogons.org/viewtopic.php?f=5&t=30242 the code
@@ -36,7 +36,7 @@ ATTENTION: I don't give any kind of warranty, nor guaranty. This procedure
 could break your hardware and I take no responsibility for your actions, so 
 use it at your own risk.
 
-# What you need
+## What you need
 
 As for Sound Blaster 1.5 you will need two Phillips SAA-1099 synthesizer
 chips, which you can buy on the internet for a little money. Additionally
@@ -48,7 +48,7 @@ logic to the PAL. You can use TL866 or something similar. Regarding software,
 you'll need an old DOS tool called EQN2JED to compile the source code. If
 you work on linux, EQN2JED runs in the DosBox flawlessly.
 
-# How to revive CMS on your Sound Blaster 2.0
+## How to revive CMS on your Sound Blaster 2.0
 
 First of all compile the equation sbcms.eqn file using EQN2JED. You should
 see no error on the output and a new file in the same directory named SBCMS.JED
@@ -58,7 +58,7 @@ documentation for you programmer. If you burned the JED to the PAL, you are
 almost done, just put the SAA-1099 chips and the PAL to your sound card, remove
 the jumper CMSOFF (which disables CMS) and turn on your PC.
 
-# How to test
+## How to test
 
 First of all, do your test with any DOS game, which supports OPL2 (or Adlib).
 Make sure, that the autodetect of the sound card works as expected. If it runs
@@ -66,7 +66,7 @@ well, try a game with CMS support. For example, you can use Monkey Island by
 running with argument `g` to run with CMS or with argument `a` to run with OPL2
 support.
 
-# Troubleshooting
+## Troubleshooting
 
 There are many different revisions of the Sound Blaster 2.0 out there and the
 provided logic code may be incompatible to some of them. If your OPL2 sound
@@ -75,10 +75,10 @@ If the sound is crap (more than usual), nothing works or whatever, it is not
 sufficient to just put back the CMSOFF jumper back, you have to remove all the
 installed chips either.
 
-# Tested hardware
+## Tested hardware
 Sound Blaster 2.0 CT1350B revision 060328 (with CT1336A)
 
-# Special thanks
+## Special thanks
 
 I want to thank `suntac` for his valueable support in reviewing my solution and
 sharing his experience. He was the first one, who was able to crack the nut and
