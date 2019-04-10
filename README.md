@@ -55,7 +55,7 @@ you work on linux, EQN2JED runs in the DosBox flawlessly.
 First of all compile the equation sbcms.eqn file using EQN2JED. You should
 see no error on the output and a new file in the same directory named SBCMS.JED
 should appear. This binary file you will need to burn to the PAL. This step
-is very much dependent from the IC programmer you need, so just follow the
+is very much dependent from the IC programmer you have, so just follow the
 documentation for you programmer. If you burned the JED to the PAL, you are
 almost done, just put the SAA-1099 chips and the PAL to your sound card, remove
 the jumper CMSOFF (which disables CMS) and turn on your PC.
