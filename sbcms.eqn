@@ -22,19 +22,19 @@ gnd=10 ; Ground
 vcc=20 ; +5V
 
 ; Input
-cs1=1    ; Chip select for the upper SAA1099P or YM3812
-cs2=2    ; Chip select for the lower SAA1099P
+cs1=1    ; Chip select for the upper SAA-1099 or YM3812
+cs2=2    ; Chip select for the lower SAA-1099
 cs0=3    ; Common chip select 
 clock=4  ; Clock signal controlled by the D-FlipFlop
 wr=5     ; Write signal
 reset=6  ; Reset signal
-dtack=11 ; Data Transfer Acknowledge from both SAA1099P
+dtack=11 ; Data Transfer Acknowledge from both SAA-1099
 
 ; Output
 iochrdy=13  ; Tri-Stated I/O CHRDY
 cs_opl=14   ; CS of YM3812
-cs_cms1=15  ; CS of upper SAA1099P
-cs_cms2=16  ; CS of lower SAA1099P
+cs_cms1=15  ; CS of upper SAA-1099
+cs_cms2=16  ; CS of lower SAA-1099
 ff_pre=17   ; Preset of the D-FlipFlop
 ff_d=18     ; D of the D-FlipFlop
 ff_clock=19 ; Clock of the D-FlipFlop
@@ -49,5 +49,4 @@ ff_d = wr + cs0 + cs1 * cs2
 ff_clock = /wr
 iochrdy.trst = /clock
 iochrdy = gnd
-
 
