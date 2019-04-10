@@ -21,7 +21,7 @@ need the logic IC, where this project comes into play.
 ## Where is the code comming from
 
 It is almost impossible to find the original CMS chips made by Creative anymore.
-In the year 2011 on https://www.vogons.org/viewtopic.php?f=5&t=30242 the code
+In the year 2011 on [vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=30242) the code
 for the logic chip was published, but quite fast it was clear, that it doesn't
 work on all revisions of the Sound Blaster 2.0 cards. Some people tried to
 resolve the issues, but without a success. At least until 2018, where one guy
@@ -83,6 +83,6 @@ installed chips either.
 I want to thank `suntac` for his valueable support in reviewing my solution and
 sharing his experience. He was the first one, who was able to crack the nut and
 without knowing that, I probably wouldn't try to solve the problem myself.
-Meanwhile he also opened his work to the world, which you can find here:
-https://www.vogons.org/viewtopic.php?f=5&t=66361
+Meanwhile he also opened his work to the world, which you can find on 
+[vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=66361)
 
