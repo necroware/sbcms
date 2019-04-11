@@ -30,7 +30,7 @@ until 2018, where one guy named `suntac` reported, that he reverse engineered
 the hardware and found a solution. He had his honorable reasons not to open the
 code to the community, but at least he was so kind to provide the chips for a
 little fee. However, as a friend of open source, I wanted to make the solution
-available for everyone.  Thankfully to `suntac`, I knew now, that the a solution
+available for everyone.  Thankfully to `suntac`, I knew now, that a solution
 does exist, so I decided to try to reverse engineer it on my own. This project
 is the result of my work.
 
