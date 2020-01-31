@@ -23,7 +23,6 @@ need the logic IC, where this project comes into play.
 It is almost impossible to find the original CMS chips made by Creative anymore.
 In the year 2011 the code for the logic chip was published on
 [vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=30242), but quite fast
-it was clear, that it doesn't for the logic chip was published, but quite fast
 it was clear, that it doesn't work on all revisions of the Sound Blaster 2.0
 cards. Some people tried to resolve the issues, but without a success. At least
 until 2018, where one guy named `suntac` reported, that he reverse engineered
