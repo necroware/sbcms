@@ -77,7 +77,13 @@ sufficient to just put back the CMSOFF jumper back, you have to remove all the
 installed chips either.
 
 ## Tested hardware
+- Sound Blaster 2.0 CT1350B revision 049151 (with CT1336)
 - Sound Blaster 2.0 CT1350B revision 069328 (with CT1336A)
+- QuickShot Sound Machine revision 049151 (with CT1336A)
+
+## Known issues
+- The sound card is very sensitive to noise, this is not an issue of CMS
+- Sound "hangs" if reset comes during playing a CMS sample
 
 ## Special thanks
 
