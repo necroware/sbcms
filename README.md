@@ -78,6 +78,7 @@ installed chips either.
 
 ## Tested hardware
 - Sound Blaster 2.0 CT1350B revision 049151 (with CT1336)
+- Sound Blaster 2.0 CT1350B revision 059316 (with CT1336A)
 - Sound Blaster 2.0 CT1350B revision 069328 (with CT1336A)
 - QuickShot Sound Machine revision 049151 (with CT1336A)
 
