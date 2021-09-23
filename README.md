@@ -81,6 +81,7 @@ installed chips either.
 - Sound Blaster 2.0 CT1350B revision 059316 (with CT1336A)
 - Sound Blaster 2.0 CT1350B revision 069328 (with CT1336A)
 - QuickShot Sound Machine revision 049151 (with CT1336A)
+- Anchor Electronics J98MF-002 (rare SB2.0 clone)
 
 ## Known issues
 - The sound card is very sensitive to noise, this is not an issue of CMS
@@ -93,4 +94,7 @@ sharing his experience. He was the first one, who was able to crack the nut and
 without knowing that, I probably wouldn't try to solve the problem myself.
 Meanwhile he also opened his work to the world, which you can find on 
 [vogons.org](https://www.vogons.org/viewtopic.php?f=5&t=66361)
+
+Thanks to Paddy for testing the logic with the quite rare and very different
+SB2.0 clone Anchor Electronics J98MF-002.
 
