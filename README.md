@@ -81,7 +81,8 @@ installed chips either.
 - Sound Blaster 2.0 CT1350B revision 059316 (with CT1336A)
 - Sound Blaster 2.0 CT1350B revision 069328 (with CT1336A)
 - QuickShot Sound Machine revision 049151 (with CT1336A)
-- Anchor Electronics J98MF-002 (rare SB2.0 clone)
+- Anchor Electronics MF-002 (FCC ID: J98MF-002)
+- Princeton Technology MF-002 (FCC ID: J5QMF-002)
 
 ## Known issues
 - The sound card is very sensitive to noise, this is not an issue of CMS
